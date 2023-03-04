@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MyBgC {
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  /* position: fixed; */
+  /* background: linear-gradient(
+      129deg,
+      rgba(208, 139, 139, 1) 13%,
+      rgba(215, 74, 67, 1) 43%,
+      rgba(20, 10, 10, 1) 92%
+    )
+    ;  */
+  position:absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: linear-gradient(
+    129deg,
+    rgba(208, 139, 139, 1) 13%,
+    rgba(215, 74, 67, 1) 43%,
+    rgba(20, 10, 10, 1) 92%
+  );
+}
+
+.TiltLogo {
+  /*background: linear-gradient(89deg,#43cea2 0%,#185a9d  100%);*/ /* W3C*/
+  background-color: transparent;
+}
+.imgdivLogo {
+  margin-top: 2.5%;
+  margin-left: 3%;
+}
+
+.btn:not(.active) {
+  cursor: pointer;
+}
+
+.bbc {
+  background-color: #cb123c;
+  color: white;
+}
+
+.fa {
+  font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+
+.bt {
+  border-color: black;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 100%;
+  border: 1px solid white;
+  cursor: pointer;
+}
+p {
+  display: inline;
+  margin-right: 20px;
+  margin-left: 5px;
+}
+.activeD {
+  border: 1px solid black;
+  background-color: #cc3924;
+}
+
+.activeL {
+  border: 1px solid black;
+  background-color: #1ab94a;
+}
+
+.paginationBttns {
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+
+  justify-content: center;
+  margin-left: 9%;
+  margin-top: 40px;
+}
+
+.paginationBttns a {
+  padding: 10px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+}
+
+.paginationBttns a:hover {
+  color: white;
+  background-color: black;
+}
+
+.paginationActive a {
+  color: white;
+  background-color: #cb123c;
+}
+
+.paginationDisabled a {
+  color: grey;
+  background-color: black;
+}
