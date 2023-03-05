@@ -38,31 +38,18 @@
 }
 
 .MyBgC {
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  overflow: hidden;
-  /* position: fixed; */
-  /* background: linear-gradient(
-      129deg,
-      rgba(208, 139, 139, 1) 13%,
-      rgba(215, 74, 67, 1) 43%,
-      rgba(20, 10, 10, 1) 92%
-    )
-    ;  */
-  position:absolute;
+  position: absolute;
+  min-height: 100%;
+  height: max-content;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   z-index: -1;
   background: linear-gradient(
-    129deg,
-    rgba(208, 139, 139, 1) 13%,
-    rgba(215, 74, 67, 1) 43%,
-    rgba(20, 10, 10, 1) 92%
+    324deg,
+    rgba(203, 18, 60, 1) 36%,
+    rgba(255, 255, 255, 1) 100%
   );
 }
 
@@ -153,3 +140,4 @@ p {
   color: grey;
   background-color: black;
 }
+
