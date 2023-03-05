@@ -8,11 +8,7 @@ const Card = ({  id, likes, dislikes, title, category ,likeActive ,dislikeActive
   
   return (
     <div className="tc  dib br3 pa3 ma2  bw2 shadow-5">
-      <img
-        alt="robots"
-        src={`https://robohash.org/${id}?2000*200`}
-        width="250px"
-      />
+      <img alt="robots" src={`./${title}.jpg`} width="250px" height="350px" />
       <div>
         <h2> {title} </h2>
         <h3>{category} </h3>
